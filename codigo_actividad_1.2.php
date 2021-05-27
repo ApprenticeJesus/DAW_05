@@ -55,5 +55,5 @@ function get($url, $params = null)
 
         $imagen = isset($producto->product->image_nutrition_small_url)?$producto->product->image_nutrition_small_url:'Imagen no disponible.';
 
-echo "Hemos cambiado esta línea para la Actividad 2.2 de la tarea 05 de Despliegue de Aplicaciones Web";
+echo "Hemos cambiado esta línea para la Actividad 2.2 de la tarea 05 de DAW";
 ?>
