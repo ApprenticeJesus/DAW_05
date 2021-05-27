@@ -54,4 +54,6 @@ function get($url, $params = null)
         $marca = isset($producto->product->product_name)?$producto->product->product_name:'Debe elegir el producto.';
 
         $imagen = isset($producto->product->image_nutrition_small_url)?$producto->product->image_nutrition_small_url:'Imagen no disponible.';
+
+echo "Hemos cambiado esta línea para la Actividad 2.2 de la tarea 05 de Despliegue de Aplicaciones Web";
 ?>
